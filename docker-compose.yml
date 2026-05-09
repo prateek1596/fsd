@@ -4,7 +4,7 @@ services:
     image: mysql:8.0
     environment:
       MYSQL_ROOT_PASSWORD: rootpass
-      MYSQL_DATABASE: teamtracker
+      MYSQL_DATABASE: team_tracker
       MYSQL_USER: appuser
       MYSQL_PASSWORD: apppass
     ports:
@@ -17,9 +17,10 @@ services:
     depends_on:
       - db
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/teamtracker?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/team_tracker?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
       SPRING_DATASOURCE_USERNAME: appuser
       SPRING_DATASOURCE_PASSWORD: apppass
+      SERVER_PORT: 8080
     ports:
       - "8080:8080"
 volumes:

@@ -1,0 +1,17 @@
+com\example\teamtracker\model\Project.class
+com\example\teamtracker\controller\ProjectController.class
+com\example\teamtracker\service\ProjectService.class
+com\example\teamtracker\controller\TeamController.class
+com\example\teamtracker\controller\TaskController.class
+com\example\teamtracker\repository\TeamRepository.class
+com\example\teamtracker\service\AppUserService.class
+com\example\teamtracker\repository\ProjectRepository.class
+com\example\teamtracker\service\TaskService.class
+com\example\teamtracker\controller\AppUserController.class
+com\example\teamtracker\model\AppUser.class
+com\example\teamtracker\service\TeamService.class
+com\example\teamtracker\TeamTrackerApplication.class
+com\example\teamtracker\repository\AppUserRepository.class
+com\example\teamtracker\model\Task.class
+com\example\teamtracker\model\Team.class
+com\example\teamtracker\repository\TaskRepository.class
