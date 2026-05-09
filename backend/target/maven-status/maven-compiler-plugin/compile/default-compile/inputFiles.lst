@@ -9,6 +9,7 @@ C:\Users\prate\OneDrive\Desktop\fsd\backend\src\main\java\com\example\teamtracke
 C:\Users\prate\OneDrive\Desktop\fsd\backend\src\main\java\com\example\teamtracker\model\AppUser.java
 C:\Users\prate\OneDrive\Desktop\fsd\backend\src\main\java\com\example\teamtracker\repository\AppUserRepository.java
 C:\Users\prate\OneDrive\Desktop\fsd\backend\src\main\java\com\example\teamtracker\repository\ProjectRepository.java
+C:\Users\prate\OneDrive\Desktop\fsd\backend\src\main\java\com\example\teamtracker\config\CorsConfig.java
 C:\Users\prate\OneDrive\Desktop\fsd\backend\src\main\java\com\example\teamtracker\repository\TeamRepository.java
 C:\Users\prate\OneDrive\Desktop\fsd\backend\src\main\java\com\example\teamtracker\controller\ProjectController.java
 C:\Users\prate\OneDrive\Desktop\fsd\backend\src\main\java\com\example\teamtracker\controller\TaskController.java

@@ -1,6 +1,7 @@
 com\example\teamtracker\model\Project.class
 com\example\teamtracker\controller\ProjectController.class
 com\example\teamtracker\service\ProjectService.class
+com\example\teamtracker\config\CorsConfig.class
 com\example\teamtracker\controller\TeamController.class
 com\example\teamtracker\controller\TaskController.class
 com\example\teamtracker\repository\TeamRepository.class
