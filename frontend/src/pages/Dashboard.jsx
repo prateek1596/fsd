@@ -9,11 +9,11 @@ const Dashboard = () => {
 
   const fetchTasks = async () => {
     try {
-      const res = await api.get("/task");
+      const res = await api.get("/tasks");
       setTasks(res.data);
       setLoading(false);
     } catch (err) {
-      console.error("Error fetching task:", err);
+      console.error("Error fetching tasks:", err);
       setLoading(false);
     }
   };
@@ -21,7 +21,7 @@ const Dashboard = () => {
   const handleStatusChange = async (taskId, newStatus) => {
     try {
       const updatedTask = { ...task.find(t => t.id === taskId), status: newStatus };
-      await api.put(`/task/${taskId}`, updatedTask);
+      await api.put(`/tasks/${taskId}`, updatedTask);
       setTasks(task.map(t => (t.id === taskId ? updatedTask : t)));
     } catch (err) {
       console.error("Error updating task:", err);
